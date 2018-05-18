@@ -102,3 +102,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# 添加pycharm的过滤文件
+.idea
+.idea/*
