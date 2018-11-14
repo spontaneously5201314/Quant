@@ -10,7 +10,7 @@
 """
 
 from pymongo import UpdateOne
-from database import DB_CONN
+from xiaoxiang.Lession_02.database import DB_CONN
 import tushare as ts
 from datetime import datetime
 
@@ -144,7 +144,7 @@ if __name__ == '__main__':
     dc = DailyCrawler()
     # 抓取指定日期范围的指数日行情
     # 这两个参数可以根据需求改变，时间范围越长，抓取时花费的时间就会越长
-    dc.crawl_index('2015-01-01', '2015-12-31')
+    dc.crawl_index('2018-06-01', '2018-11-11')
     # 抓取指定日期范围的股票日行情
     # 这两个参数可以根据需求改变，时间范围越长，抓取时花费的时间就会越长
-    dc.crawl('2015-01-01', '2015-12-31')
+    dc.crawl('2018-06-01', '2018-11-11')

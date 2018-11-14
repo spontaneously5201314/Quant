@@ -14,8 +14,8 @@ from datetime import datetime, timedelta
 
 from pymongo import UpdateOne, ASCENDING
 
-from database import DB_CONN
-from stock_util import get_trading_dates, get_all_codes
+from xiaoxiang.Lession_02.database import DB_CONN
+from xiaoxiang.Lession_02.stock_util import get_trading_dates, get_all_codes
 
 """
 对日行情数据做进一步的处理：

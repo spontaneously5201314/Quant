@@ -14,8 +14,8 @@ from datetime import datetime, timedelta
 import tushare as ts
 from pymongo import UpdateOne
 
-from database import DB_CONN
-from stock_util import get_trading_dates
+from xiaoxiang.Lession_02.database import DB_CONN
+from xiaoxiang.Lession_02.stock_util import get_trading_dates
 
 """
 从tushare获取股票基础数据，保存到本地的MongoDB数据库中

@@ -12,9 +12,9 @@
 from pymongo import DESCENDING
 import pandas as pd
 import matplotlib.pyplot as plt
-from stock_pool_strategy import stock_pool, find_out_stocks
-from database import DB_CONN
-from stock_util import get_trading_dates
+from xiaoxiang.Lession_02.stock_pool_strategy import stock_pool, find_out_stocks
+from xiaoxiang.Lession_02.database import DB_CONN
+from xiaoxiang.Lession_02.stock_util import get_trading_dates
 
 """
 完成策略的回测，绘制以沪深300为基准的收益曲线，并计算策略评价指标：

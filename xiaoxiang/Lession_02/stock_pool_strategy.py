@@ -9,12 +9,11 @@
 普量学院助教微信：niuxiaomi3
 """
 
-
 from pymongo import ASCENDING, DESCENDING
 import pandas as pd
 import matplotlib.pyplot as plt
-from database import DB_CONN
-from stock_util import get_trading_dates
+from xiaoxiang.Lession_02.database import DB_CONN
+from xiaoxiang.Lession_02.stock_util import get_trading_dates
 
 """
 实现股票池，条件是0 < PE <30， 按照PE正序排列，最多取100只票；

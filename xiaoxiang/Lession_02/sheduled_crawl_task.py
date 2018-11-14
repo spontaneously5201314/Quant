@@ -10,7 +10,7 @@
 """
 
 import schedule
-from daily_crawler import DailyCrawler
+from xiaoxiang.Lession_02.daily_crawler import DailyCrawler
 import time
 from datetime import datetime
 

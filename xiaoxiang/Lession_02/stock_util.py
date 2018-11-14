@@ -10,7 +10,7 @@
 """
 
 from pymongo import ASCENDING
-from database import DB_CONN
+from .database import DB_CONN
 from datetime import datetime, timedelta
 
 
